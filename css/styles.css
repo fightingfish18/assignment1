@@ -2,27 +2,45 @@
 @import url(reset.css);
 
 #logo {
-	float: left;
 	height: 100px;
 	width: 100px;
 }
 
+#logo, #pizzaPic {
+	float: left;
+}
+
+#pizzaPic {
+	height: 15%;
+	width: 25%;
+	margin-top: 15%;
+}
+
 #heading {
 	height: 100px;
+	background-color: #F6A7FA;
 }
 
 #contentArea {
 	width: 80%;
-	background-color: #F6A7FA;
 	text-align: center;
 	margin-top: 1%;
+	background-color: red;
 }
 
-li {
+nav li {
 	display: inline;
 	font-weight: bold;
 	padding-left: 1%;
 	padding-right: 1%;
+}
+
+#details li {
+	text-align: left;
+}
+
+#details {
+	margin-top: 15%;
 }
 
 a {
@@ -46,4 +64,8 @@ body {
 
 h1 {
 	font-size: 36pt;
+}
+
+#description {
+	font-style: italic;
 }
