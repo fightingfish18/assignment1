@@ -7,7 +7,7 @@
 
 <?php function heading() { ?>
 	<div id="heading">
-		<img src="img/logo.png" alt="pizzaLogo" id="logo">
+		<a href="index.php"><img src="img/logo.png" alt="pizzaLogo" id="logo"></a>
 		<h1>Dawg Pizza</h1>
 		<nav>
 			<ul>

@@ -11,21 +11,23 @@
 }
 
 #pizzaPic {
-	height: 15%;
-	width: 25%;
-	margin-top: 15%;
+	height: 500px;
+	width: 700px;
+	margin-top: 5%;
+	margin-left: 2%;
+	padding-right: 2%;
 }
 
 #heading {
 	height: 100px;
-	background-color: #F6A7FA;
+	background-color: #C9EAF5;
 }
 
 #contentArea {
 	width: 80%;
 	text-align: center;
 	margin-top: 1%;
-	background-color: red;
+	background-color: #FAF5D7;
 }
 
 nav li {
@@ -40,17 +42,22 @@ nav li {
 }
 
 #details {
-	margin-top: 15%;
+	margin-top: 10%;
+	padding-bottom: 3%;
+}
+
+#details ul {
+	margin-left: 2%;
 }
 
 a {
-	color: #E4E868;
+	/* color: #E4E868; */
 	font-size: 18pt;
 }
 
 h1, #contentArea {
 	margin: auto;
-	color: white;
+	/* color: white; */
 }
 
 ul {
@@ -60,6 +67,8 @@ ul {
 body {
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	background-image: url(../img/background.jpg);
+	text-align: center;
+	padding: 3%;
 }
 
 h1 {
@@ -68,4 +77,9 @@ h1 {
 
 #description {
 	font-style: italic;
+	padding-top: 25px;
+}
+
+#contentArea ul {
+	padding-bottom: 400px;
 }
