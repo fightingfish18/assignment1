@@ -1,0 +1,49 @@
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+#logo {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+#heading {
+	height: 100px;
+}
+
+#contentArea {
+	width: 80%;
+	background-color: #F6A7FA;
+	text-align: center;
+	margin-top: 1%;
+}
+
+li {
+	display: inline;
+	font-weight: bold;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+a {
+	color: #E4E868;
+	font-size: 18pt;
+}
+
+h1, #contentArea {
+	margin: auto;
+	color: white;
+}
+
+ul {
+	margin-top: 2%;
+}
+
+body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	background-image: url(../img/background.jpg);
+}
+
+h1 {
+	font-size: 36pt;
+}
