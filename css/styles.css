@@ -1,6 +1,8 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+@import url(http://fonts.googleapis.com/css?family=Rambla:400,700,400italic);
+
 #logo {
 	height: 100px;
 	width: 100px;
@@ -65,7 +67,7 @@ ul {
 }
 
 body {
-	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Rambla', 'Helvetica', 'Arial', sans-serif;
 	background-image: url(../img/background.jpg);
 	text-align: center;
 	padding: 3%;
