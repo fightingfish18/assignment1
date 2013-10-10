@@ -8,16 +8,8 @@
 	width: 100px;
 }
 
-#logo, #pizzaPic {
+#logo {
 	float: left;
-}
-
-#pizzaPic {
-	height: 500px;
-	width: 700px;
-	margin-top: 5%;
-	margin-left: 2%;
-	padding-right: 2%;
 }
 
 #heading {
@@ -39,10 +31,6 @@ nav li {
 	padding-right: 1%;
 }
 
-#details li {
-	text-align: left;
-}
-
 #details {
 	margin-top: 10%;
 	padding-bottom: 3%;
@@ -53,13 +41,11 @@ nav li {
 }
 
 a {
-	/* color: #E4E868; */
 	font-size: 18pt;
 }
 
 h1, #contentArea {
 	margin: auto;
-	/* color: white; */
 }
 
 ul {
@@ -84,4 +70,40 @@ h1 {
 
 #contentArea ul {
 	padding-bottom: 400px;
+}
+
+dt, .bold {
+	font-weight: bold;
+	padding-top: 2%;
+}
+
+#footing {
+	padding-top: 15px;
+	border-top: 2px solid gray;
+	margin-top: 1%;
+}
+
+h2 {
+	font-weight: bold;
+	padding-top: 1%;
+	font-size: 130%;
+}
+
+.bkg {
+	background-image: url(../img/order.jpg);
+}
+
+.bkg, .bkg2, .bkg3 {
+	height: 100%;
+	width: 100%;
+	color: #FFC1A6;
+	background-size: 100%;
+}
+
+.bkg2 {
+	background-image: url(../img/oven.jpg);
+}
+
+.bkg3 {
+	background-image: url(../img/pizza1.jpg);
 }

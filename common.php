@@ -21,6 +21,6 @@
 
 <?php function footing() { ?>
 	<div id="footing">
-		<p>&copy; Dawg Pizza 2013</p>
+		<p>&copy; Dawg Pizza 2013, Call us for delivery: 206-555-1212</p>
 	</div>
 <?php } ?>
