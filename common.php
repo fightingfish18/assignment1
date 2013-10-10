@@ -1,5 +1,7 @@
+<?php
 //William Smyth May
-//These are the common php functions used across all three pages.
+//These are the common php functions linked across all three pages
+?>
 
 <?php function metaData() { //Metadata for page.?> 
 	<meta charset="UTF-8">
