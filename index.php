@@ -1,10 +1,14 @@
 <!doctype html>
+<!--
+William Smyth May
+Dawg Pizza homepage.
+-->
 <html>
 <head>
 	<title>Dawg Pizza</title>
 	<?php 
-	include 'common.php';
-	metaData();
+	include 'common.php'; //php used in place of SSI.  Common file where php functions are stored.
+	metaData(); //All metadata included in common.php
 	?>
 	
 </head>

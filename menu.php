@@ -1,4 +1,10 @@
 <!doctype html>
+<!--
+William Smyth May
+This is the menu page for Dawg Pizza.
+Utilizes php for common functions.
+Menu items are considered to be dictionary terms, with definitions being toppings.
+-->
 <html>
 <head>
 	<title>Dawg Pizza - Menu</title>

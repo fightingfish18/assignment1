@@ -1,6 +1,12 @@
+/*
+William Smyth May
+This is the css file for all three pages on the Dawg Pizza site.
+*/
+
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+/*Google Web Font for "Rambla".  This is the primary font used on the page.*/
 @import url(http://fonts.googleapis.com/css?family=Rambla:400,700,400italic);
 
 #logo {

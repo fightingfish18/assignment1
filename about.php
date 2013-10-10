@@ -1,4 +1,9 @@
 <!doctype html>
+<!--
+William Smyth May
+This is the about page for Dawg Pizza.
+Utilizes php for common content.
+-->
 <html>
 <head>
 	<title>Dawg Pizza</title>
